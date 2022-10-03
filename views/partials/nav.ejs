@@ -1,0 +1,27 @@
+</head>
+<body>
+  <nav>
+    <div class="meal-link">
+    <a 
+			href="/meals/new"
+			<%- title === 'Add Meal' ? 'class="active"' : '' %>
+		>
+			ADD MEAL
+		</a>
+    </div>
+    <div class="add-flight-link">
+    <a 
+      href="/flights/new" <%- title === 'Flights' ? 'class="active"' : '' %>
+    >
+      ADD FLIGHT
+    </a>
+    </div>
+    <div class="all-flights-link">
+    <a
+    href="/flights" <%- title === 'All Flights' ? 'class="active"' : '' %> 
+    >
+    ALL FLIGHTS
+    </a>
+    </div>
+  </nav>
+
